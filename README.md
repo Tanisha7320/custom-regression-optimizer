@@ -27,5 +27,5 @@ Building this from scratch came with critical practical lessons and edge cases:
 ---
 
 ## 🔍 Scope & Scaling Realities
-* **When Exact Math Works:** For low-to-moderate dimensional datasets, computing the exact Hessian and extracting its eigenvalues via spectral analysis ($O(d^3)$) is entirely feasible and offers deep analytical visibility.
+* **When Exact Math Works:** For low-to-moderate dimensional datasets, computing the exact Hessian and extracting its eigenvalues via spectral analysis ($O(d^{3}))$ is entirely feasible and offers deep analytical visibility.
 * **The Big Data Bottleneck:** At massive industrial scales ($d$ in the millions), computing explicit Hessians or matrix inversions becomes intractable, shifting the architectural necessity toward stochastic approximations (SGD) and iterative matrix-free solvers.
